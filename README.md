@@ -1,5 +1,5 @@
 # encyption-AES
-Using python implement AES algrithim
+Using python implements AES algorithim
 
 ### How to use?
 ```python

@@ -15,7 +15,7 @@ class AES:
         '''
         search in sbox or inv_sbox
         :param num:input byte
-        :param type:sbox or inv_sbox
+        :param type:decode or encode
         :return:output byte
         '''
         temp = int(num)
@@ -128,7 +128,7 @@ class AES:
         expand key and get round keys
         :return:round keys
         '''
-        round_key = []; w = np.zeros(50,dtype=np.int64)
+        round_key = []; w = np.zeros(100,dtype=np.int64)
         for i in range(4):
             w[i] = self.__generate_init(i)
 
@@ -206,7 +206,6 @@ class AES:
                 print(hex(int(ans[i][j])), end=" ")
                 if j == 3:print("")
         print("\n")
-
 
 if __name__ == '__main__':
     src = np.array([

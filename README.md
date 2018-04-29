@@ -1,4 +1,4 @@
-# encyption-AES
+# encryption-AES
 Using python implements AES algorithim
 
 ### How to use?

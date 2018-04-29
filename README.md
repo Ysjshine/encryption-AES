@@ -1,5 +1,5 @@
 # encryption-AES
-Using python implements AES algorithim
+Using python implements AES algorithm
 
 ### How to use?
 ```python
